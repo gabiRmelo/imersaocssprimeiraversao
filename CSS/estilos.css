@@ -1,0 +1,40 @@
+/*configurando corpo da página: plano de fundo e fonte*/
+body {
+    background-image: url('https://images.alphacoders.com/719/thumb-1920-719903.jpg');
+    font-family: Arial;
+    backgroung-size: auto 100vh;
+    height: 100vh;
+  }
+  /*definindo cor de fundo do menu*/
+  .menu {
+    background-color: blue;
+   }
+  /*fazendo as linhas virarem colunas e alinhando o texto*/
+  .menu ul {
+    display: flex;       
+    justify-content: space-around;      
+  }
+  /*removendo marcadores da lista*/
+  .menu li {
+   list-style: none;  
+  }
+  /*removendo o sublinhado dos hiperlinks*/
+  a {
+    color: white;
+    text-decoration: none; 
+  }
+  /*adicionando underline ao passar o mouse sobre o texto*/
+  a:hover {
+    text-decoration: underline; 
+  }
+  /*configurando e alinhando título e subtítulo da página*/
+  .site-subtitle,
+  .site-title {
+    text-align: center;
+    color: whitesmoke;
+  }
+  /*estilizando o subtítulo*/
+  .site-subtitle {
+    font-style: oblique;
+  }
+  
